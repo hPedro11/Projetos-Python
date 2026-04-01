@@ -1,0 +1,19 @@
+					/////////////////////////////////////////////
+					///////////// COMANDOS GIT /////////////////
+					///////////////////////////////////////////
+
+git init - Iniciar novo repositório.
+git remote add <nome-remoto> <url-repositório> - Adiciona o repositório remoto ao seu local.
+git add . - Adiciona todos os arquivos.
+git commit -m <"Descrição commit"> - Realiza o commit.
+git push <nome-remoto> main - Envia as alterações para o repositório.
+git status - Verifica alterações recente no repositório.
+git diff - Aponta diferenças.
+git log - Retorna todas as inclusões, exclusões e alterações.
+git revert <id commit> - Desfaz as mudanças (daquele id commit).
+git revert -n <hash-do-ultimo-commit-a-manter> - Reverte uma serie de commits.
+git reset --hard <id commit> - Permite redefinir a posição da branch atual para um commit anterior, removendo os commits posteriores do histórico.
+git commit --amend <"Texto"> - Faz alteração no commit anterior.
+git reset --soft - Desfaz os commits, mas mantem as alterações mo diret´rio de trabalh.
+git log -p - Traz uma log mais detalhada.
+git log --oneline - Apenas uma previa do log.
