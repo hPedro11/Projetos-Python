@@ -24,7 +24,7 @@ def adivinha():
         else:
             print(f"Número escolhido: {usuario}")
 
-        # Condições de tentatova'
+        # Condições de tentativa
         if usuario == numero:
             print(f"Parabéns! Você acertou o número {numero}")
             break
