@@ -11,11 +11,12 @@ import random
 def jogo():
     opcoes = ["pedra", "papel", "tesoura"]
     escolha = input("Escolha: pedra, papel ou tesoura? ").lower()
+
     if escolha not in opcoes:
         print(f"Opção inválida. Por favor escolha uma das opções.")
 
-
     computador = random.choice(opcoes)
+    
     print(f"Computador escolheu: {computador}")
 
     if escolha == computador:
